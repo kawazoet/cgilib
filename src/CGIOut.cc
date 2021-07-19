@@ -49,7 +49,7 @@ void CGIOut::output(void)
     
     // ヘッダを吐く
     puts(contentType.c_str());
-    printf("Content-length: %d\n", document.length());
+    printf("Content-length: %ld\n", document.length());
     
     // no-cache
     if( noCache ){
