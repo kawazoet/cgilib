@@ -1,0 +1,15 @@
+# Makefile for the cgilib
+# Copyright (C) 2001  Kawazoe Tomonori
+
+# このファイルを修正することで、
+# 設定を変更することができます。
+
+# コンパイラとコンパイルオプション
+CXX = g++
+FLAGS = -O2 -Wall
+
+# ライブラリ名とインストール先
+LIBNAME = libcgi.a
+HEADER_DIR  = /usr/local/include/cgi
+LIBRARY_DIR = /usr/local/lib
+
