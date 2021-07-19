@@ -11,6 +11,7 @@ Copyright (C) 2001-2004
 
 #include "Form.h"
 #include <memory>
+#include <string.h>
 
 namespace cgi {
 

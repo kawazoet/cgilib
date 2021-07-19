@@ -6,6 +6,7 @@ Copyright (C) 2001-2004
 */
 
 #include "string_misc.h"
+#include <string.h>
 
 // すべての replace はこれを呼び出す.
 static string & replace_internal(string &target,
